@@ -1,0 +1,231 @@
+
+/*Custom Styles for Carousel Index*/
+
+.icon-hover:hover {
+  border-color: #3b71ca !important;
+  background-color: white !important;
+  transform: translateY(-2px); /* Move icon up on hover */
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon-hover:hover i {
+  color: #3b71ca !important;
+}
+
+.text-muted-hover:hover {
+    color: #719946 !important;
+}
+
+.shadow-2-strong {
+    /* Define animation for shadow */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+.shadow-2-strong:hover {
+  /* Increase shadow on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-bg{
+  background-color: #28a745;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-title {
+  white-space: nowrap;      /* Prevent text wrapping */
+  overflow: hidden;         /* Hide overflowing text */
+  text-overflow: ellipsis;  /* Display ellipsis (...) for truncated text */
+}
+  
+.carousel {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto; /* Center the carousel */
+  }
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .carousel-item {
+    flex: 0 0 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+  }
+  .indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .indicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .indicator.active {
+    background-color: white;
+  }
+
+/* Custom styles for About Us section */
+.custom-about {
+  padding: 80px 0;
+}
+
+.custom-btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.custom-btn:hover {
+  background-color: #45a049; /* Darker Green */
+}
+
+/* Custom styles for Our Values section */
+.custom-values {
+  padding: 80px 0;
+}
+
+.custom-logo {
+  font-size: 60px;
+  color: #f4511e;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.custom-values h2 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.custom-values h4 {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.custom-values p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #777;
+}
+
+.body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.bg-image {
+  background-image: url('../assets/cover.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 100%;
+  color: white;
+}
+
+.overlay-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.overlay-text ul {
+  padding-left: 0;
+}
+
+.overlay-text li {
+  list-style: none;
+}
+
+.overlay-text i {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.overlay-text a.btn {
+  margin-top: 20px;
+}
+
+.icon-circle {
+  display: inline-block;
+  width: 40px; /* Adjust the size of the circle */
+  height: 40px; /* Adjust the size of the circle */
+  border-radius: 50%;
+  background-color: #333; /* Change the background color as needed */
+  text-align: center;
+  line-height: 35px; /* Adjust to vertically center the icon */
+  padding-left: 10px; /* Adjust the horizontal spacing */
+  padding-right: 5px; /* Adjust the horizontal spacing */
+}
+
+.icon-circle i {
+  color: white; /* Change the icon color as needed */
+  font-size: 18px;
+}
+
+.border {
+    border-width: 2px;
+    border-color: black; /* Adjust as needed */
+    background-color: #f5f5f5;
+  }
+
+.see-more {
+  /* Custom styles for the "See more" button */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+.see-more:hover {
+  background-color: green;
+  color: white;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
