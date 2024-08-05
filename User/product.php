@@ -333,48 +333,61 @@ session_start(); // Starting the session
 <footer class="bg-light text-muted">
   <div class="container pt-4">
     <div class="row">
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      <div class="col-lg-3 col-md-3">
         <a href="index.php">
           <img src="assets/H.png" height="35" class="mb-3" alt="Logo">
         </a>
-        <p class="text-dark">© 2024 Healthpal Medical and Dental Supplies</p>
+        <p class="text-dark" style="font-size: 14px; margin-left: 5px;"> MacArthur Highway, Sto.Domingo 1st Capas, Tarlac</p>
       </div>
 
-      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+      <div class="col-6 col-sm-4 col-lg-2">
         <h6 class="text-uppercase fw-bold mb-3">Store</h6>
-        <ul class="list-unstyled mb-0">
-          <li><a href="product.php" class="text-muted">Products</a></li>
-          <li><a href="dentalproduct.php" class="text-muted">Dental Product</a></li>
-          <li><a href="medicalproduct.php" class="text-muted">Medical Product</a></li>
+        <ul class="list-unstyled mb-4">
+          <li><a href="product.php" class="text-muted text-decoration-none text-muted-hover">Products</a></li>
+          <li><a href="dentalproduct.php" class="text-muted text-decoration-none text-muted-hover">Dental Product</a></li>
+          <li><a href="medicalproduct.php" class="text-muted text-decoration-none text-muted-hover">Medical Product</a></li>
         </ul>
       </div>
 
-      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+      <div class="col-6 col-sm-4 col-lg-2">
         <h6 class="text-uppercase fw-bold mb-3">Information</h6>
-        <ul class="list-unstyled mb-0">
-          <li><a href="about us.php" class="text-muted">About us</a></li>
-          <li><a href="contact us.php" class="text-muted">Contact us</a></li>
+        <ul class="list-unstyled mb-4">
+          <li><a href="about us.php" class="text-muted text-decoration-none text-muted-hover">About us</a></li>
+          <li><a href="contact us.php" class="text-muted text-decoration-none text-muted-hover">Contact us</a></li>
         </ul>
       </div>
 
-      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+      <div class="col-6 col-sm-4 col-lg-2">
         <h6 class="text-uppercase fw-bold mb-3">Credits</h6>
         <ul class="list-unstyled mb-0">
-          Images by <a href="https://www.freepik.com/free-photo/top-view-pills-stethoscope-arrangement_24482233.htm#query=medical%20supplies&position=14&from_view=keyword&track=ais&uuid=326f6173-2538-4dbe-9396-0303fe20d3ae" class="text-muted">Freepik</a>
+          Images by <a href="https://www.freepik.com" class="text-muted text-decoration-none text-muted-hover">Freepik</a>
         </ul>
-    </div>
+      </div>
 
-      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+      <div class="col-6 col-sm-4 col-lg-2">
         <h6 class="text-uppercase fw-bold mb-3">Visit Us On</h6>
-        <ul class="list-unstyled mb-0">
+        <ul class="list-unstyled mb-4">
           <a href="https://www.facebook.com/HealthPalEssentials" >
             <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
             </svg>
           </a>
         </ul>
-    </div>
+      </div>
     </div>    
+  </div>
+  <!--- copyright --->
+   <div class="">
+    <div class="container">
+      <div class="d-flex justify-content-between py-4 border-top">
+        <p class="text-dark">© 2024 Healthpal Medical and Dental Supplies</p>
+          <ul style="list-style-type: none; padding: 0; display: flex; margin-left: 20px;">
+            <li style="margin-right: 10px;"><a href="product.php" class="text-muted text-decoration-none text-muted-hover">Terms</a> </li>
+            <li style="margin-right: 10px;"><a href="product.php" class="text-muted text-decoration-none text-muted-hover">Privacy</a> </li>
+            <li><a href="product.php" class="text-muted text-decoration-none text-muted-hover">Security</a></li>
+          </ul>
+      </div>
+    </div>
   </div>
 </footer>
 <!-- Footer -->

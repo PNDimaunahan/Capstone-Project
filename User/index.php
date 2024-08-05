@@ -150,7 +150,7 @@ if(isset($_GET['exit']) && $_GET['exit'] === 'success') {
                                 style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url('./assets/banner/banner-1.png'); 
                                 min-height: 50px;
                                 background-size: cover;
-                                background-position: bottom;-center;
+                                background-position: bottom;
                                 width: 100%;
                                 background-repeat: no-repeat;
                                 top: 50%;
